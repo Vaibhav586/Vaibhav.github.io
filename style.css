@@ -303,10 +303,85 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* crets section styling */
+
+.crets .title::after{
+    content: "All My Certificates";
+}
+.crets .skills-content .column{
+    width: calc(50% - 30px);
+}
+.crets .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.crets .skills-content .left p{
+    text-align: justify;
+}
+.crets .skills-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.crets .skills-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.crets .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.crets .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.crets .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.crets .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.crets .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills-content .right .html::before{
+    width: 90%;
+}
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .js::before{
+    width: 80%;
+}
+.skills-content .right .php::before{
+    width: 50%;
+}
+.skills-content .right .mysql::before{
+    width: 70%;
+}
+
 /* skills section styling */
 
 .skills .title::after{
-    content: "Here you go!";
+    content: "All You Wanna Now About!";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -615,4 +690,277 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+
+/* Add this CSS for images in the "COURSES" section */
+.certs .column.left img {
+    height: 500px;
+    width: 100%;
+}
+
+/* Add this CSS for images in the "Workshops" section */
+.skills .column.left img {
+    height: 350px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.certs .title::after{
+    content: "COURSES I HAVE COMPLETED!";
+}
+.certs .skills-content .column{
+    width: calc(50% - 30px);
+}
+.certs .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.certs .skills-content .left p{
+    text-align: justify;
+}
+.certs .skills-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.certs .skills-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.certs .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.certs .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.certs .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.certs .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.certs .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.certs-content .right .html::before{
+    width: 90%;
+}
+.certs-content .right .css::before{
+    width: 60%;
+}
+.certs-content .right .js::before{
+    width: 80%;
+}
+.certs-content .right .php::before{
+    width: 50%;
+}
+.certs-content .right .mysql::before{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+.workshop .title::after{
+    content: "WORKSHOPS I HAVE COMPLETED!";
+}
+.workshop .skills-content .column{
+    width: calc(50% - 30px);
+}
+.workshop .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.workshop .skills-content .left p{
+    text-align: justify;
+}
+.workshop .skills-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.workshop .skills-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.workshop .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.workshop .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.workshop .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.workshop .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.workshop .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.workshop-content .right .html::before{
+    width: 90%;
+}
+.workshop-content .right .css::before{
+    width: 60%;
+}
+.workshop-content .right .js::before{
+    width: 80%;
+}
+.workshop-content .right .php::before{
+    width: 50%;
+}
+.workshop-content .right .mysql::before{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Styles for the "COURSES" section */
+.certs {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.certs .max-width {
+    margin: 0 auto;
+}
+
+.certs .title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.certs .skills-content {
+    display: flex;
+    justify-content: center;
+}
+
+.certs .column {
+    text-align: center;
+}
+
+.certs .column.left {
+    margin-right: 20px;
+}
+
+.certs .text {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Styles for the image in the "COURSES" section */
+.certs .column.left img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 100%;
+    max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the "Workshops" section */
+.workshop {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.workshop .max-width {
+    margin: 0 auto;
+}
+
+.workshop .title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.workshop .skills-content {
+    display: flex;
+    justify-content: center;
+}
+
+.workshop .column {
+    text-align: center;
+}
+
+.workshop .column.left {
+    margin-right: 20px;
+}
+
+.workshop .text {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Styles for the image in the "Workshops" section */
+.workshop .column.left img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 100%;
+    max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
